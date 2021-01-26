@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "finepos",
+  "id": "viewoffset",
   "version": "${version}",
 
-  "name": "FinePos",
+  "name": "ViewOffset",
   "description": "brings back the view offset of -0.1 (a tenth of a block backwards) that was present in older versions",
   "authors": [
     "polymetric"
