@@ -9,6 +9,7 @@ import org.lwjgl.glfw.GLFW;
 
 public class ViewOffsetMod implements ModInitializer {
 	private static KeyBinding toggleOffset;
+	public static boolean offsetEnabled = true;
 
     @Override
     public void onInitialize() {
@@ -21,7 +22,7 @@ public class ViewOffsetMod implements ModInitializer {
 
 		ClientTickEvents.END_CLIENT_TICK.register(client -> {
 			while (toggleOffset.wasPressed()) {
-				client.player.pitch -= 0.15;
+
 			}
 		});
     }

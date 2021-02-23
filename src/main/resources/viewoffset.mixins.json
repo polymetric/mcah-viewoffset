@@ -4,9 +4,10 @@
   "package": "net.nodium.mcmods.viewoffset.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinGameRenderer"
   ],
   "client": [
+    "MixinGameRenderer",
+    "MixinPlayerEntity"
   ],
   "injectors": {
     "defaultRequire": 1

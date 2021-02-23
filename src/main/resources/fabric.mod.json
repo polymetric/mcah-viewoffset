@@ -23,6 +23,7 @@
     ]
   },
   "mixins": [
+    "viewoffset.mixins.json"
   ],
 
   "depends": {
